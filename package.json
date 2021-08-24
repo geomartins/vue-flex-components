@@ -1,6 +1,6 @@
 {
   "name": "vue-flex-components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "author": "Martins Abiodun <martinsabiodun94@gmail.com>",
   "main": "dist/vue-flex-components.ssr.js",
@@ -59,6 +59,4 @@
   "bugs": {
     "url": "https://github.com/geomartins/vue-flex-components/issues"
   }
-
-
 }
