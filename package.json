@@ -58,5 +58,6 @@
   "homepage": "https://github.com/geomartins/vue-flex-components",
   "bugs": {
     "url": "https://github.com/geomartins/vue-flex-components/issues"
-  }
+  },
+  "license": "MIT"
 }
