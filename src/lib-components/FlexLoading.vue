@@ -99,7 +99,7 @@ export default {
 };
 </script>
 
-<style >
+<style>
 * {
   box-sizing: border-box;
 }
@@ -113,6 +113,10 @@ export default {
   display: var(--showing);
   font-family: inherit;
   cursor: progress;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
 }
 
 .flexLoading > .flexLoading__content {
@@ -130,9 +134,7 @@ export default {
   font-family: roboto;
 }
 
-.flexLoading
-  > .flexLoading__content
-  > .flexLoading__content__bottom {
+.flexLoading > .flexLoading__content > .flexLoading__content__bottom {
   color: var(--labelColor);
   font-size: var(--labelSize);
   font-weight: var(--labelWeight);

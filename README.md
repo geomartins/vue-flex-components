@@ -11,7 +11,7 @@ npm install vue-flex-components
 
 ## Usuage
 ```javascript
-import FlexLoading from "vue-flex-components";
+import { FlexLoading } from "vue-flex-components";
 export default defineComponent({
   components: {
     FlexLoading,
